@@ -1,0 +1,403 @@
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            /* ----------------------------------
+-------------HOME Section -------------
+---------------------------------- */
+            
+            .home {
+                background-image: url(images/drew-coffman-1872.jpg);
+                background-size: 100% 100%;
+                text-align: center;
+                padding-top: 10px;
+                height: 100vh;
+                color: #fff;
+            }
+            
+            .nav {
+                width: 100%;
+                text-align: left;
+                display: inline-block;
+            }
+            
+            .logo {
+                width: 10%;
+                display: inline-block;
+                margin: 10px;
+            }
+            
+            .nav img {
+                width: 100%;
+            }
+            
+            .home ul {
+                list-style-type: none;
+                display: inline-block;
+                margin-top: 0;
+                padding-left: 700px;
+            }
+            
+            .home ul li {
+                width: fit-content;
+                margin: 0px 10px;
+                display: inline-block;
+            }
+            
+            .home ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 17px;
+            }
+            
+            .welcome {
+                margin: 55px;
+                font-size: 30px;
+            }
+            
+            .text {
+                margin: 30px;
+                font-size: 25px;
+                color: #ccc;
+            }
+            
+            h1 {
+                font-size: 80px;
+            }
+            
+            .btn1,
+            .btn3 {
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                padding: 20px;
+                background-color: rgba(255, 255, 255, 0);
+                border-color: white;
+                text-decoration: none;
+                color: white;
+            }
+            
+            .btn1:hover,
+            .btn3:hover {
+                color: black;
+                background-color: white;
+            }
+            
+            .btn1 {
+                background-color: #8e7754;
+                border-color: transparent;
+            }
+            
+            .btn2 {
+                display: block;
+                margin: 130px auto 0;
+                padding: 20px 10px;
+                border-radius: 20px;
+                border: 2px solid #fff;
+                background-color: transparent;
+            }
+            
+            .btn2 i {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -moz-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
+                animation: dash 3s -1s infinite forwards;
+                -webkit-animation: dash 3s -1s infinite forwards;
+                position: relative;
+                color: white;
+            }
+            
+            @keyframes dash {
+                from {
+                    bottom: -18px
+                }
+                to {
+                    bottom: 18px;
+                    color: transparent;
+                }
+            }
+            /* ----------------------------------
+-------------END-HOME Section -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------about Section -------------
+---------------------------------- */
+            
+            .who img {
+                width: 40%;
+                margin: 30px;
+            }
+            
+            .info {
+                display: inline-block;
+                width: 50%;
+                margin-left: 30px;
+                text-align: center;
+                vertical-align: top;
+                padding-top: 30px;
+            }
+            
+            .info h2 {
+                font-size: 30px;
+            }
+            
+            .info p {
+                color: #686868;
+                font-size: 20px;
+                line-height: 40px
+            }
+            
+            .info ul li {
+                text-align: left;
+                list-style: none;
+            }
+            
+            .info ul li i {
+                font-size: 20px;
+                margin-right: 5px;
+                color: #795548;
+            }
+            /* ----------------------------------
+-------------END-About Section -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------Location Section -------------
+---------------------------------- */
+            
+            .location {
+                background-color: #cccccc2e;
+            }
+            
+            .locate {
+                width: 50%;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+                padding-top: 50px;
+            }
+            
+            .locate h2 {
+                font-size: 30px;
+            }
+            
+            .locate p {
+                color: #686868;
+                font-size: 20px;
+                line-height: 40px;
+                margin-left: 40px;
+            }
+            
+            .location img {
+                width: 40%;
+                margin-left: 40px;
+                padding-top: 30px;
+            }
+            /* ----------------------------------
+--------------End-Location Section -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------Baking Section -------------
+---------------------------------- */
+            
+            .baking {
+                text-align: center;
+            }
+            
+            .baking h2 {
+                font-size: 30px;
+            }
+            
+            .baking p {
+                color: #686868;
+                font-size: 20px;
+            }
+            
+            .item {
+                width: 30%;
+                float: left;
+                margin: 15px;
+            }
+            
+            .item img {
+                width: 90%;
+            }
+            
+            .item p {
+                line-height: 50px;
+                font-size: 20px;
+            }
+            
+            .clr {
+                clear: both;
+            }
+            /* ----------------------------------
+--------------End-Baking Section -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------contact info -------------
+---------------------------------- */
+            
+            .contact-info {
+                background-color: #cccccc2e;
+            }
+            
+            .cont-info {
+                float: left;
+                width: 40%;
+                text-align: center;
+                margin: 90px 140px;
+            }
+            
+            .cont-info h2 {
+                font-size: 30px;
+            }
+            
+            .cont-info h4 {
+                text-align: left;
+                color: #686868;
+                font-size: 20 px;
+            }
+            
+            .cont-info p {
+                color: #686868;
+                font-size: 20px;
+                line-height: 40px;
+            }
+            
+            .cont-info ul {
+                list-style: none;
+                text-align: left;
+            }
+            
+            .cont-info ul li {
+                color: #686868;
+                font-size: 20px;
+                margin: 30px;
+            }
+            
+            .cont-info ul li i {
+                font-size: 30px;
+                margin-right: 5px;
+                color: #fff;
+                padding: 10px;
+                background-color: #8e7754;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            
+            .map {
+                background-image: url(images/contact-details-map.png);
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                float: right;
+                width: 15%;
+                padding: 250px 100px;
+                margin: 50px 40px;
+                border: 1px solid rgb(48, 48, 59);
+            }
+            /* ----------------------------------
+--------------END-contact info -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------start-summary section -------------
+---------------------------------- */
+            
+            .summary {
+                background-color: #403d38;
+            }
+            
+            .about-us {
+                float: left;
+                width: 20%;
+                margin: 30px;
+            }
+            
+            .summary h4 {
+                color: #fff;
+                font-size: 20px;
+            }
+            
+            .about-us p {
+                color: #686868;
+                font-size: 20px;
+                line-height: 40px;
+            }
+            
+            .special {
+                float: left;
+                width: 20%;
+                margin: 30px;
+            }
+            
+            .special ul {
+                list-style: none;
+                color: #686868;
+            }
+            
+            .special ul li {
+                margin: 15px -40px;
+                font-size: 20px;
+            }
+            
+            .special ul li i {
+                margin-right: 8px;
+                font-size: 20px;
+            }
+            
+            .special ul li a {
+                text-decoration: none;
+                color: #686868;
+            }
+            
+            #change a:hover {
+                color: white;
+            }
+            
+            hr {
+                border: 1px solid rgba(0, 0, 0, 0.158);
+            }
+            /* ----------------------------------
+--------------end-summary section -------------
+---------------------------------- */
+            /* ----------------------------------
+--------------start-footer section -------------
+---------------------------------- */
+            
+            .footer {
+                text-align: center;
+                background-color: #353330;
+                color: #Fff;
+                padding: 40px 0;
+            }
+            
+            .footer p {
+                color: #cccccc2e;
+            }
+            
+            .footer a {
+                text-decoration: none;
+                color: gray;
+                font-size: 30px;
+                margin: 10px;
+            }
+            
+            .footer a:hover {
+                color: white;
+                background-color: #0A66C2;
+            }
+            
+            #f:hover {
+                background-color: #3b5998;
+            }
+            
+            #g:hover {
+                background-color: #db4a39;
+            }
